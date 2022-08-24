@@ -7,7 +7,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "jetifier": "^1.6.3",
     "react": "16.8.3",
     "react-native": "0.59.8",
     "react-native-autogrow-textinput": "^5.2.0",
@@ -23,7 +22,6 @@
     "react-native-vector-icons": "^6.4.2",
     "react-navigation": "^3.11.0",
     "react-redux": "^7.1.0",
-    "realm": "^2.29.1",
     "redux": "^4.0.2",
     "redux-thunk": "^2.3.0"
   },
@@ -31,9 +29,14 @@
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
     "babel-jest": "^24.8.0",
+    "graceful-fs": "^4.2.10",
     "jest": "^24.8.0",
+    "jetifier": "^2.0.0",
     "metro-react-native-babel-preset": "^0.54.1",
     "react-test-renderer": "16.8.3"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.4"
   },
   "jest": {
     "preset": "react-native"

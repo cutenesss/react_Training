@@ -4,7 +4,7 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.imagepicker.ImagePickerPackage;
-import io.realm.react.RealmReactPackage;
+// import io.realm.react.RealmReactPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -30,7 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new ImagePickerPackage(),
-            new RealmReactPackage(),
+            // new RealmReactPackage(),
             new RNGestureHandlerPackage(),
             new VectorIconsPackage(),
             new LinearGradientPackage(),
