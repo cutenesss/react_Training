@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "16.8.3",
-    "react-native": "0.59.8",
+    "react-native": "0.71.3",
     "react-native-autogrow-textinput": "^5.2.0",
     "react-native-datepicker": "^1.7.2",
     "react-native-floating-action": "^1.17.0",
